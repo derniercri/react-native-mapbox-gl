@@ -37,13 +37,10 @@ class MapboxAnnotation extends React.Component {
   }
 
   render() {
-    return ( <
-      RCTMapboxAnnotation ref = {
-        ref => {
-          this.marker = ref;
-        }
-      } { ...this.props
-      }
+    return (
+      <RCTMapboxAnnotation
+        ref={ref => { this.marker = ref; }}
+        {...this.props}
       />
     );
   }
