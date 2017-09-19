@@ -21,7 +21,7 @@ Moving forward a `v6` branch has been created and a rewrite of the library is un
 * [React Native](https://facebook.github.io/react-native/) >= 0.19.0
 
 ```
-npm install react-native-mapbox-gl --save
+npm install git://github.com/derniercri/react-native-mapbox-gl.git#v5.2.0 --save
 ```
 
 * [Android](/android/install.md)
