@@ -428,9 +428,14 @@ class MapView extends Component {
   }
 
   render() {
+    const { children } = this.props
+
+
+
     return (
       <MapboxGLView
         {...this.props}
+        children={children.filter(n => n)}
         ref={this._onNativeComponentMount}
         onRegionDidChange={this._onRegionDidChange}
         onRegionWillChange={this._onRegionWillChange}
